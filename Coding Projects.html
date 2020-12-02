@@ -1,100 +1,94 @@
+<!DOCTYPE html>
 <html>
 <head>
+
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+   
+   <!-- Font awesome -->
+   <script src="https://kit.fontawesome.com/e771b9766b.js" crossorigin="anonymous"></script>
+
+   <!-- Google fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+
 <title>Coding Projects</title>
 <style>
-a {
-  font-family:monospace;
-}
-p {
-  font-family:monospace;
-}
+
 body {
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,114,255,1) 0%, rgba(0,212,255,1) 86%);
+background: rgb(244,251,63);
+background: radial-gradient(circle, rgba(244,251,63,1) 0%, rgba(48,255,0,1) 100%);
 } 
-.card {
-  box-shadow: 0 15px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 100%;
-  margin-top: 100px
+
+.nav-space {
+ margin-left: 75%;
 }
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+h2 {
+ margin-top: 5%;
+ margin-left: 5%;
 }
-.container {
-  padding: 100px 100px;
-}
-html, body, {
-    position:fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-}
-.navigation_bar {
-   font-size: 30px;
-   margin-left: 20px
-}
-.Home {
-float: left;
-margin-right: 25px;
-border: 0px solid black;
-border-radius: 10px;
-padding: 10px
-}
-.MyApps {
-float: left;
-border: 0px solid black;
-border-radius: 10px;
-padding: 10px
-}
-.Projects {
-float: left;
-margin-left: 25px;
-border: 2px solid black;
-border-radius: 10px;
-padding: 10px
+
+.project { 
+  margin-top: 2%;
+  margin-left: 5%;
 }
 </style>
 <body>
-<center><h1 style="font-family:'Gruppo';font-size:50px">Coding Projects</h1></center>
-<div class="navigation_bar">
- <div>
- <a href="index.html" class="Home" style="text-decoration: none;color: black;">Home</a>
- </div>
- <div>
- <a href="MyApps.html" class="MyApps" style="text-decoration: none;color: black;">MyApps</a>
- </div>
- <div>
- <a href="Coding Projects.html" class="Projects" style="text-decoration: none;color: black;">Projects</a>
- </div>
-</div>
-<div class = "card" style="margin-top: 100px">
-<div class = "container">
-<h3 style="font-family:'Gruppo';font-size:50px">TicTacToe</h3>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">TechThunder</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-space" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="MyApps.html">Apps</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Coding Projects.html">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<h2 style="font-family: 'Comfortaa', cursive;font-size: 200%">TicTacToe</h2>
+<div class="project">
 <p style="font-size:25px">Written in:Python</p>
 <p style="font-size:25px">Description: This is a TicTacToe AI</p>
-<p style="font-size:25px"><a href="https://tictactoe.joyeldsilva.repl.run">Try it here</a></p>
-<p style="font-size:25px"><a href="https://github.com/Joyel1441/TicTacToe-AI">Source Code</a></p>
+<p style="font-size:25px"><a href="https://tictactoe.joyeldsilva.repl.run" style="color: blue">Try it here</a></p>
+<p style="font-size:25px"><a href="https://github.com/Joyel1441/TicTacToe-AI" style="color: blue">Source Code</a></p>
 </div>
-</div>
-<div class = "card" style="margin-top: 100px">
-<div class = "container">
-<h3 style="font-family:'Gruppo';font-size:50px">Iris Flower Classifier</h3>
+
+<h2 style="font-family: 'Comfortaa', cursive;font-size: 200%">Iris Flower Classifier</h2>
+<div class="project">
 <p style="font-size:25px">Written in:Python</p>
-<p style="font-size:25px">Description: Iris Flower Classifier web app using Machine learning, trained on Iris dataset</p>
-<p style="font-size:25px"><a href="https://irisflowerclassifier.herokuapp.com/">Try it here</a></p>
-<p style="font-size:25px"><a href="https://github.com/Joyel1441/IrisFlowerDetection">Source Code</a></p>
+<p style="font-size:25px">Description: Iris Flower Classifier web app using Machine Learning</p>
+<p style="font-size:25px"><a href="https://irisflowerclassifier.herokuapp.com/"style="color: blue">Try it here</a></p>
+<p style="font-size:25px"><a href="https://github.com/Joyel1441/IrisFlowerDetection" style="color: blue">Source Code</a></p>
 </div>
-</div>
-<div class = "card" style="margin-top: 100px">
-<div class = "container">
-<h3 style="font-family:'Gruppo';font-size:50px">Handwritten Digits Recognition</h3>
+
+<h2 style="font-family: 'Comfortaa', cursive;font-size: 200%">Handwritten Digits Recognition</h2>
+<div class="project">
 <p style="font-size:25px">Written in:Python</p>
 <p style="font-size:25px">Description: Handwritten Digits Recognition web app using Deep learning, trained on MNIST dataset</p>
-<p style="font-size:25px"><a href="https://github.com/Joyel1441/HandwrittenDigitRecognition">Github</a></p>
-<p style="font-size:25px"><a href="https://handwrittendigitrecognitionapp.herokuapp.com">Try it here</a></p>
-</div>
+<p style="font-size:25px"><a href="https://github.com/Joyel1441/HandwrittenDigitRecognition" style="color: blue">Github</a></p>
+<p style="font-size:25px"><a href="https://handwrittendigitrecognitionapp.herokuapp.com" style="color: blue">Try it here</a></p>
+<p style="font-size:25px"><a href="https://youtu.be/4aPSX3Dmy90" style="color: blue">Demo video</a></p>
 </div>
 </body>
 </html>
