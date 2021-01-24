@@ -19,9 +19,8 @@
 </head>
 <style>
 
-body { 
-background: rgb(63,120,251);
-background: radial-gradient(circle, rgba(63,120,251,1) 0%, rgba(0,215,255,1) 100%);
+body {
+   background: black;
 }
 
 h2 {
@@ -34,46 +33,50 @@ p {
   margin-left: 5%;
 }
 
+@media only screen and (max-width: 600px) {
+ .mtext {
+   font-size: 1.2rem !important; 
+ }
+}
+
 </style>
 <body>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand nav-space" href="#">TechThunder</a>
+  <nav class="navbar navbar-expand-lg" style="color: black;">
+    <a class="navbar-brand nav-space" href="#" style="color: blueviolet; font-size: 1.8rem;">TechThunder</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color: blueviolet;"></i></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav text-center" style="margin-left: auto;">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html" style="color: blueviolet; font-size: 1.2rem;">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="MyApps.html">Apps</a>
+          <a class="nav-link" href="MyApps.html" style="color: blueviolet; font-size: 1.2rem;">Apps</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Coding Projects.html">Projects</a>
+          <a class="nav-link" href="Projects.html" style="color: blueviolet; font-size: 1.2rem;">Projects</a>
         </li>
       </ul>
     </div>
   </nav>
 
-<h2 style="font-family: 'Comfortaa', cursive;font-size: 200%">QuizApp</h2>
-<p style="font-size:25px">version: 1.0<br/>platform: Android<br/>This is the first release of the QuizApp,
+<h2 style="font-family: 'Comfortaa', cursive;font-size: 1.6rem; color: blueviolet;" class="mtext">QuizApp</h2>
+<p style="font-size:1.5rem; color: blueviolet" class="mtext">version: 1.0<br/>platform: Android<br/>This is the first release of the QuizApp,
 mainly coded in html,css and javascript</p>
-<p><a href="http://www.mediafire.com/file/ii3142pyswgw3ui/QUIZAPP.apk/file" style="font-size:25px">Download QuizApp</a></p>
+<p><a href="http://www.mediafire.com/file/ii3142pyswgw3ui/QUIZAPP.apk/file" style="font-size:1.5rem; color: blue;" class="mtext">Download QuizApp</a></p>
 
 
-<h2 style="font-family: 'Comfortaa', cursive;font-size: 200%">QuizApp2</h2>
-<p style="font-size:25px">version: 2.0<br/>platform: Android<br/>This is a bit enhanced version of the QuizApp,this is also
+<h2 style="font-family: 'Comfortaa', cursive;font-size: 1.6rem; color: blueviolet;" class="mtext">QuizApp2</h2>
+<p style="font-size:1.5rem; color: blueviolet;" class="mtext">version: 2.0<br/>platform: Android<br/>This is a bit enhanced version of the QuizApp,this is also
 mainly coded in html,css and javascript</p>
-<p><a href="http://www.mediafire.com/file/e0snnpf5v9cl688/QuizApp2.apk/file" style="font-size:25px">Download QuizApp2</a></p>
+<p><a href="http://www.mediafire.com/file/e0snnpf5v9cl688/QuizApp2.apk/file" style="font-size:25px; color: blue;" class="mtext">Download QuizApp2</a></p>
 
-<h2 style="font-family: 'Comfortaa', cursive;font-size: 200%">ApkMate</h2>
-<p style="font-size:25px">version: 1.0<br/>platform: Android<br/>Tired of searching for modded apps,or paid apps for free,then this is the app for you<br/>ApkMate searches the app in the provided trusted websites and makes it available to you for download</p>
-<p><a href="https://youtu.be/YYQy_nzISQc" style="font-size:25px">Watch a video on how to use ApkMate app</a></p>
-<p style="font-size:25px"><a href="https://github.com/Joyel1441/ApkMate">Source Code</a></p>
-<p style="font-size:25px"><a href="http://www.mediafire.com/file/mmh3e8tm4uc2z6x/ApkMate.apk/file">Download ApkMate</a></p>
-
-
+<h2 style="font-family: 'Comfortaa', cursive;font-size: 1.6rem; color: blueviolet;" class="mtext">ApkMate</h2>
+<p style="font-size:1.5rem; color: blueviolet;" class="mtext">version: 1.0<br/>platform: Android<br/>Tired of searching for modded apps,or paid apps for free,then this is the app for you<br/>ApkMate searches the app in the provided trusted websites and makes it available to you for download</p>
+<p><a href="https://youtu.be/YYQy_nzISQc" style="font-size:1.5rem; color: blueviolet;" class="mtext">Watch a video on how to use ApkMate app</a></p>
+<p style="font-size:1.5rem;"><a href="https://github.com/Joyel1441/ApkMate" style="color: blue;">Source Code</a></p>
+<p style="font-size:1.5rem;"><a href="http://www.mediafire.com/file/mmh3e8tm4uc2z6x/ApkMate.apk/file" style="color: blue;" class="mtext">Download ApkMate</a></p>
