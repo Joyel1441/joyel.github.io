@@ -143,6 +143,7 @@ body {
 
  .about_me_card {
     width: 90%;
+    flex-direction: column;
 }
 
 .about_me {
