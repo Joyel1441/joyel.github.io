@@ -125,6 +125,8 @@ body {
     padding: 10px;
     list-style: none;
     text-decoration: none;
+    display: block;
+    text-align: center;
     border: 2px solid #4872fa;
     border-radius: 20px;
 }
@@ -161,7 +163,7 @@ body {
     text-shadow: 0px 0px 10px #5d82ff, 0px 0px 40px #5d82ff, 0px 0px 80px #5d82ff;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
     .navigation {
         height: auto;
         margin-right: auto;
@@ -199,6 +201,10 @@ body {
 
     .project_image {
         margin-bottom: 1em;
+    }
+
+    .project_links a {
+        display: inline;
     }
 
     .footer {
