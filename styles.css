@@ -3,10 +3,15 @@
     padding: 0px;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     background: #131314;
-    height: 100vh;
-    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .about_me {
@@ -109,6 +114,7 @@ body {
 
 .project_heading {
     color: #4872fa;
+    margin-bottom: 1.5em;
     font-size: 2rem;
 }
 
@@ -141,9 +147,7 @@ body {
     width: 100%;
     color: white;
     text-align: center;
-    margin: auto;
-    position: absolute;
-    bottom: 0;
+    margin-top: auto;
     box-shadow: -5px -5px 5px #242626, 5px 5px 15px black;
 }
 
@@ -164,6 +168,7 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
+
     .navigation {
         height: auto;
         margin-right: auto;
@@ -174,6 +179,7 @@ body {
     .about_me_card {
         max-width: max-content;
         flex-direction: column-reverse;
+        margin-bottom: 2em;
     }
 
 
@@ -207,10 +213,9 @@ body {
         display: inline;
     }
 
+
     .footer {
         padding: 0.4em;
-        margin-top: 2em;
-        position: static;
         font-size: 1.1rem;
     }
 
