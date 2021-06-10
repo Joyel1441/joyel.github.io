@@ -20,6 +20,7 @@
 </head>
 
 <body>
+  <div id="preloader"></div>
   <!--Navigation bar-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -71,6 +72,14 @@
       style="margin-right: 1em; margin-left: 1em; margin-top: 1em;"><i class="fab fa-github"></i></a>
     <a href="https://www.linkedin.com/in/joyel-dsilva/" class="connect_icon"><i class="fab fa-linkedin-in"></i></a>
   </div>
+
+
+  <script>
+     var loader = document.getElementById("preloader");
+     window.addEventListener("load", function() {
+          loader.style.display = "none";
+     });
+  </script>
 
 </body>
 
