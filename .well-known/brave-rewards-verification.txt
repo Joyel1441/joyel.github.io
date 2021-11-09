@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: joyel1441.github.io
+Token: 4a33ea17ef18cc8d94de94299ee73d3fe7d0190df08f945ee6e0c11d5b25e5d2
